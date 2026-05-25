@@ -102,14 +102,14 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/dueDateButton"
-                style="@style/Widget.Material3.Button.TonalButton"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/pick_date" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/clearDueDateButton"
-                style="@style/Widget.Material3.Button.TextButton"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/clear"
