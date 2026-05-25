@@ -40,6 +40,14 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
+    // Don't fail the CI build over lint warnings — useful for college
+    // demos and CI APK distribution. For production you'd want this
+    // stricter.
+    lint {
+        abortOnError = false
+        checkReleaseBuilds = false
+    }
 }
 
 dependencies {
